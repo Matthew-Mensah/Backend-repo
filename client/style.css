@@ -182,7 +182,7 @@ header{
     align-items: center;
     flex-direction: column;
     background-color: #dfe8ea;
-    background-image: url(/public/asserts/bck.jpg);
+    background-image: url(/client/asserts/bck.jpg);
     border-radius: 3px;
 }
 .container1{
@@ -340,7 +340,7 @@ header{
     justify-content: center;
     align-items: center;
     background-color: rgb(150, 163, 167);
-    background-image: url(/public/asserts/excursion.jpg);
+    background-image: url(/client/asserts/excursion.jpg);
     border-width: 1;
     border-radius: 3px;
     margin-bottom: 7%;
@@ -718,7 +718,7 @@ header{
     .page{
         background-color: #dfe8ea;
         padding-top: 100px;
-        background-image: url(/public/asserts/bck.jpg);
+        background-image: url(/client/asserts/bck.jpg);
     
     }
 .title-text-container{  
@@ -799,7 +799,7 @@ color: white;
     border-radius: 10px;
     border-width: 5;
     padding-top: 100px;
-    background-image: url(/public/asserts/bck.jpg);
+    background-image: url(/client/asserts/bck.jpg);
     background-size: 265%;
     background-repeat: no-repeat;
 
@@ -862,7 +862,7 @@ color: white;
     border-radius: 10px;
     margin-left: 350px;
     flex-direction: 'row';
-    background-image: url(/public/asserts/form.jpg);
+    background-image: url(/client/asserts/form.jpg);
     background-size: 265%;
     background-repeat: no-repeat;
 }
@@ -886,7 +886,7 @@ button {
     cursor: pointer;
 }
 .image {
-    background-image: url(/public/asserts/natural\ brains.jpg);
+    background-image: url(/client/asserts/natural\ brains.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }

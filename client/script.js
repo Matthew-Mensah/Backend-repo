@@ -2,9 +2,9 @@
 
 // Array of image URLs
 const images = [
-    '/public/asserts/ANNIVERSARY_2X4.jpg',
-    '/public/asserts/DSC_0466.JPG',
-    '/public/asserts/excursion.jpg',
+    '/client/asserts/ANNIVERSARY_2X4.jpg',
+    '/client/asserts/DSC_0466.JPG',
+    '/client/asserts/excursion.jpg',
     // Add more image URLs as needed
 ];
 
