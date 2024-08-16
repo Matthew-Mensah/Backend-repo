@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>SCHOOL WEBSITE</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./assets/natural_brains.jpg" alt="Natural Brains Academy Logo">
+            </div>
+            <ul class="links">
+                <li><a href="/public/Homepage.html">Home</a></li>
+                <li><a href="/public/About.html">About Us</a></li>
+                <li><a href="/public/#">School Gallery</a></li>
+                <li><a href="/public/News.html">News & Events</a></li>
+                <li><a href="/public/register.html">Register</a></li>
+            </ul>
+            <a href="About.html" class="action-btn">Explore</a>
+            <div class="toggle-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="/public/Homepage.html">Home</a></li>
+            <li><a href="/public/About.html">About Us</a></li>
+            <li><a href="/public/gallery.html">School Gallery</a></li>
+            <li><a href="/public/News.html">News & Events</a></li>
+            <li><a href="/public/#">Admission</a></li>
+            <li><a href="/public/About.html" class="action-btn">Explore</a></li>
+        </div>
+    </header>
+
+    <section class="register-section">
+        <div class="register-container">
+            <h2>Welcome to Natural Brains Academy Admissions Portal</h2>
+            <p>We are delighted that you are considering NABS for your educational journey. Our institution is dedicated
+                to providing a comprehensive and enriching learning environment that fosters intellectual growth,
+                creativity, and personal development.</p>
+
+            <h1>Why Choose Us?</h1>
+            <h4>Welcome to NABS - Shaping Futures, One Child at a Time</h4>
+            <p>At NABS, we believe that every child is unique, with individual talents and potential waiting to be
+                unlocked. Our mission is to provide a nurturing, stimulating, and supportive environment where each
+                student can thrive academically, socially, and emotionally.</p>
+
+            <h1>How to Apply</h1>
+            <p>Welcome to the NABS Admissions Process! We are excited to guide you through the steps to become a part of
+                our vibrant and nurturing community. Our application process is designed to be straightforward and
+                comprehensive, ensuring that we get to know each prospective student and their unique potential.</p>
+
+            <ol>
+                <li><strong>Obtain the Admission Form:</strong> Download the admission form from our website or collect it from
+                    the school office.</li>
+                <li><strong>Complete the Form:</strong> Fill out the form with accurate information about your child.
+                    Ensure all sections are completed, including child's name, date of birth, former school, and health
+                    information.</li>
+                <li><strong>Attach Necessary Documents:</strong> Attach a recent photograph and any other required
+                    documents as mentioned in the form.</li>
+                <li><strong>Pay the Registration Fee:</strong> Submit the non-refundable registration fee along with the
+                    completed form.</li>
+                <li><strong>Submit the Form:</strong> Submit the filled form and attached documents to the school office.
+                    You can also send them via mail to the address provided in the form.</li>
+                <li><strong>Entrance Exam:</strong> Your child may need to take an entrance exam. The date and details
+                    will be communicated to you upon form submission.</li>
+                <li><strong>Notification of Admission:</strong> After the entrance exam, you will be notified about the
+                    admission status and class placement of your child.</li>
+            </ol>
+            <p>For any inquiries or assistance, please contact our admission office at <strong>+233 239 098 2478</strong>
+                or email us at <a href="mailto:info@naturalbrainsacademy.com">info@naturalbrainsacademy.com</a>.</p>
+
+            <div class="admission-form">
+                <div class="image">
+                    <h3>NATURAL-BRAINS ACADEMY</h3>
+                    <h5>Motto: Discipline and HardWork</h5>
+                    <h3>Admission Form</h3>
+                    <p>Please fill out this form carefully and ensure all required fields are completed.</p>
+                </div>
+                <form id="admissionForm" class="form-data" action="forms.php" method="POST">
+                    <div class="side1">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" required>
+
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" required>
+
+                        <label for="dateOfBirth">Date of Birth:</label>
+                        <input type="date" id="dateOfBirth" name="dateOfBirth" required>
+
+                        <label for="gender">Gender:</label>
+                        <select id="gender" name="gender" required>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+
+                        <label for="nationality">Nationality:</label>
+                        <input type="text" id="nationality" name="nationality" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone"  required>
+
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="address" required>
+
+                        <label for="parentName">Parent's Name:</label>
+                        <input type="text" id="parentName" name="parentName" required>
+
+                        <label for="parentEmail">Parent's Email:</label>
+                        <input type="email" id="parentEmail" name="parentEmail" required>
+                    </div>
+                    <div class="side2">
+                        <label for="formerSchool">Former School:</label>
+                        <input type="text" id="formerSchool" name="formerSchool" required>
+
+                        <label for="healthInformation">Health Information:</label>
+                        <textarea id="healthInformation" name="healthInformation" rows="4" cols="30" required></textarea>
+
+                        <label for="registrationFee">Registration Fee:</label>
+                        <input type="number" id="registrationFee" name="registrationFee" required>
+
+                        <label for="entranceExamDate">Entrance Exam Date:</label>
+                        <input type="date" id="entranceExamDate" name="entranceExamDate" required>
+
+                        <label for="entranceExamTime">Entrance Exam Time:</label>
+                        <input type="time" id="entranceExamTime" name="entranceExamTime" required>
+
+                        <label for="entranceExamVenue">Entrance Exam Venue:</label>
+                        <input type="text" id="entranceExamVenue" name="entranceExamVenue" required>
+
+                        <button type="submit">Submit Application</button>
+                    </div>
+                </form>
+            </div>
+
+            <p>We look forward to welcoming you to the Natural Brains Academy family and embarking on this exciting
+                educational journey together. Thank you for considering Natural-Brains-Academy for your child's
+                education.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-sec">
+            <div class="address">
+                <h4>Natural <br> Brains <br> Academy</h4>
+                <h4>Address</h4>
+                <h5>P.O BOX 4454, Amasaman</h5>
+                <h5>Tel: +233 239 098 2478</h5>
+            </div>
+            <div class="location">
+                <h4><a href="https://maps.app.goo.gl/pZKKgKJkasbXsrBW7">Location</a>: Kpobiman Container</h4>
+                <h4>Main Campus: Treba</h4>
+                <h4>Our Motto: Discipline & HardWork</h4>
+            </div>
+            <div class="contacts">
+                <h4>Contact Us</h4>
+                <h5>Tel: +233 239 098 2478</h5>
+                <h5>Email: <a href="mailto:info@naturalbrainsacademy.com"><i class="fa-solid fa-envelope"></i></a></h5>
+                <h5>Facebook: <a href="https://www.facebook.com/Natural-Brains-Academy-102110111265611"><i
+                            class="fa-brands fa-facebook"></i></a></h5>
+                <h5>Instagram: <a href="https://www.instagram.com/natural_brains_academy/"><i
+                            class="fa-brands fa-instagram"></i></a></h5>
+            </div>
+        </div>
+        <div class="copyright">
+            <h5>Copyright &copy; 2024 Natural Brains Academy. All rights reserved.</h5>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('admissionForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const data = Object.fromEntries(formData.entries());
+            try {
+                const response = await fetch('http://localhost:3000/admission', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+                if (response.ok) {
+                    alert('Application submitted successfully!');
+                } else {
+                    alert('Error submitting application.');
+                }
+            } catch (error) {
+                alert('An error occurred while submitting the application.');
+                console.error('Error:', error);
+            }
+        });
+    </script>
+</body>
+
+</html>

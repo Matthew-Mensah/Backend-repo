@@ -18,7 +18,7 @@ const app = express();
 // Use CORS middleware
 app.use(cors());
 // Serve static files from the "frontend" directory
-app.use('/frontend', express.static(path.join(__dirname, 'frontend')));
+app.use('/public', express.static(path.join(__dirname, 'frontend')));
 
 // Handle all other routes and serve the Homepage.html file
 app.get('/*', (req, res) => {

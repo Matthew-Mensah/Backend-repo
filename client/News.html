@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>NABS WEBSITE</title>
+</head>
+<body>
+    <header >
+        <div class="navbar">
+        <div class="logo">
+            <!-- <a href="#">Natural Brains Academy </a> -->
+               <img  style="height: 100px;width:90%;flex-wrap:wrap;border-radius:50px" src="/public/asserts/natural brains.jpg" alt="badge"> 
+           
+        </div>
+       
+             <ul class ="links">
+                <li><a href="/public/Homepage.html">Home</a></li>
+                <li><a href="/public/About.html">About Us</a></li>
+                <li><a href="/public/#">School gallery </a></li>
+                <li><a href="/public/News.html">News & Events</a></li>
+                <li><a href="/public/register.html">Register</a></li>
+            </ul>
+       
+         <a href="About.html" class="action-btn">Explore</a>
+         <div class="toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <div class="dropdown_menu ">
+        
+            <li><a href="/public/Homepage.html">Home</a></li>
+            <li><a href="/public/About.html">About Us</a></li>
+            <li><a href="/public/gallery.html">School gallery </a></li>
+            <li><a href="/public/News.html">News & Events</a></li>
+            <li><a href="/public/register.html">Admission</a></li>
+       <li><a href="/public/About.html" class="action-btn">Explore</a> </li>
+      
+
+    </div>
+    </header>
+    <!-- <script>
+        const toggleBtn = document.querySelector(".toggle-btn");
+        const actionBtn = document.querySelector(".toggle-btn i");
+        const dropdownMenu = document.querySelector(".dropdown_menu");
+        toggleBtn.onclick = function()  {
+            dropdownMenu.classList.toggle("open");
+            const isOpen = dropdownMenu.classList.contains("open");
+
+            toggleBtn.classList = isOpen
+            ? "fa-solid fa-xmark"
+             : "fa-solid fa-bars"
+
+        };
+    </script> -->
+    <section>
+        <div class="news">
+            <div class="news-title">
+                <h1>Latest Anouncement and Events Forum</h1>
+                <h2 style="margin-left:40%;color:aliceblue">Up-Comimg Events</h2>
+                <div class="news-container">
+                    <div style="margin-right: 6%;" class="container-1-text">
+                        <h4>Speech And Price Giving Day</h4>
+                        <h5>DESCRIPTION</h5>
+                        <p>Our Speech and Prize Giving Day is a special event dedicated to recognizing the outstanding achievements of our students in academics, sports, and extracurricular activities. The ceremony will feature inspiring speeches, award presentations, and performances by our talented students. It is a day to honor excellence and encourage our students to strive for their best in all endeavors.
+
+                        </p>
+                        <h5>Date : 00-00-000</h5>
+                        <h5>Time : 9:00 AM - 12:00 PM</h5>
+                        <h5>Location : Room 101</h5>
+                    </div>
+                    <div class="container-1-image">
+                        <img style="height: 340px;width:100%;flex-wrap:wrap;border-radius:30px;" src="/public/asserts/speech.webp" alt="News Image">
+                    </div> 
+                </div> <br><br><br>
+                <div class="news-container">
+                    <div  class="container-1-text">
+                        <h4>Inter-House Sports</h4>
+                        <h5>DESCRIPTION</h5>
+                        <p>Get ready for an action-packed day at our annual Interhouse Sports Competition! Students from all houses will compete in a variety of athletic events, showcasing their skills and sportsmanship. This event is a fantastic opportunity to promote teamwork, healthy competition, and school spirit. Parents and guardians are invited to cheer on their children and enjoy the festivities.</p>
+                        <h5>Date : 00-00-000</h5>
+                        <h5>Time : 9:00 AM - 12:00 PM</h5>
+                        <h5>Location : School football field</h5>
+                    </div>
+                    <div class="container-1-image">
+                        <img style="height: 250px;width:100%;flex-wrap:wrap;border-radius:30px;" src="/public/asserts/interh.jpg" alt="News Image">
+                    </div> 
+                </div> <br><br><br>
+                <div class="news-container">
+                    <div style="margin-right: 6%;" class="container-1-text">
+                        <h4>Graduation </h4>
+                        <h5>DESCRIPTION</h5>
+                        <p>We are excited to announce the upcoming graduation ceremony for the Class of 2024! This momentous occasion marks the culmination of years of hard work and dedication. Join us to celebrate the achievements of our graduates as they embark on their new journeys. The ceremony will include speeches from distinguished guests, the awarding of diplomas, and special performances by our students.</p>
+                        <h5>Date : 00-00-000</h5>
+                        <h5>Time : 9:00 AM - 12:00 PM</h5>
+                        <h5>Location : Room 101</h5>
+                    </div>
+                    <div class="container-1-image">
+                        <img style="height: 340px;width:100%;flex-wrap:wrap;border-radius:30px;" src="/public/asserts/eygraduates-crop.jpg" alt="News Image">
+                    </div> 
+                </div> <br><br><br>
+                <div class="news-container">
+                    <div class="container-1-text">
+                        <h4>Staff- Workshop</h4>
+                        <h5>DESCRIPTION</h5>
+                        <p>Our annual staff workshop is designed to provide professional development and training for our dedicated faculty and staff. This year's workshop will focus on innovative teaching strategies, technology integration in the classroom, and effective communication techniques. We encourage all staff members to attend and engage in this valuable opportunity for growth and collaboration.</p>
+                        <h5>Date : 00-00-000</h5>
+                        <h5>Time : 9:00 AM - 12:00 PM</h5>
+                        <h5>Location :Conference Room </h5>
+                    </div>
+                    <div class="container-1-image">
+                        <img style="height: 260px;width:110%;flex-wrap:wrap;border-radius:30px;" src="/public/asserts/workshop.webp" alt="News Image">
+                    </div> 
+                </div> <br><br><br>
+
+            </div>
+
+        </div>
+      
+    </section>
+        
+           
+<footer>
+    <div class="footer-sec">
+        <div class="address">
+        <h4>Natural <br>
+            Brains <br>
+            Academy <br><br>
+        </h4>
+        <h4>Address </h4>
+        <h5> P.O BOX 4454, Amasaman</h5>
+        <h5>Tel: +233 239 098 2478</h5>
+    </div>
+    <div class="location">
+        <h4><a  href="https://maps.app.goo.gl/pZKKgKJkasbXsrBW7">Location</a> :Kpobiman Container</h4>
+        <h4>Main Campus: Treba</h4>
+        <h4>Our Motto :Descipline & Hardwork</h4>
+    </div>
+    <div class="other">
+        <h4>Contact Us</h4>
+        <h5>Tel: +233 239 098 2478</h5>
+        <h5>Email:  <a href=":  ">  <i class="fa-solid fa-envelope"></i>  </a></h5>
+        <h5>Facebook: <a href="https://www.facebook.com/Natural-Brains-Academy-102110111265611"> <i class="fa-brands fa-facebook"></i> </a></h5>
+        <h5>Instagram: <a href="https://www.instagram.com/natural_brains_academy/"> <i class="fa-brands fa-instagram"></i> </a></h5>
+    </div>
+    </div>
+    <div class="copyright">
+        <h5 style="padding-left: 590px;">Copyright &copy; 2024 Natural Brains Academy. All rights reserved.</h5>
+    </div>
+
+</footer>
+</body>
+</html>
+<style>
+    /*---------------------------------News & event-----------------------------------*/
+.news {
+    width: 100%;
+    height: 900%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-width: 5;
+    padding-top: 100px;
+    /* margin-bottom: 20%; */
+    background-image: url(/public/asserts/bck.jpg);
+    background-size: 265%;
+    background-repeat: no-repeat;
+
+}
+.news-title{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-width: 5;
+    margin-bottom: 0%;
+}
+
+
+.news-title h1 { 
+    font-size: 2rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    color: rgb(234, 234, 238);  
+}
+.news-container{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.container-1-text{
+    width: 60%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    border-width: 5;
+    background-image: url(/public/asserts/white-blue-gradient-background.jpg);
+    background-size: 265%;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+
+
+
+
+</style>

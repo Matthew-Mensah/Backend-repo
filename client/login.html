@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <ul class ="links">
+                <li><a href="/public/Homepage.html">Home</a></li>
+                <li><a href="/public/About.html">About Us</a></li>
+                <li><a href="/public/#">School gallery </a></li>
+                <li><a href="/public/News.html">News & Events</a></li>
+                <li><a href="/public/register.html">Register</a></li>
+            </ul>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f1f1f1;
+        background-image: url(/public/asserts/ANNIVERSARY_2X4.jpg);
+        background-size: 140%;
+    }
+   .loginPage {
+    width: 350px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    background-image: url(/public/asserts/ball-bck.jpg);
+    background-size: 300%;
+    background-repeat: no-repeat;
+
+
+
+    }
+    h2 {
+        text-align: center;
+    }
+    form {
+        margin-top: 10px;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    }
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 18px;
+        transition: background-color 0.3s ease;
+ 
+   }
+    input[type="submit"]:hover {
+        background-color: #3427c2;
+    }
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+        background-color: #f1f1f1;
+        color: black;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+
+    
+</style>
+<body>
+    <div class="loginPage">
+        <div class="Form-container">
+            <h2>Login</h2>
+            <form action="/submit_login" method="post">
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" required><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br>
+                <label for="role">Role:</label><br>
+                <select id="role" name="role" required>
+                    <option value="admin">Admin</option>
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="other">Other</option>
+                </select><br>
+                <input type="submit" value="Login">
+            </form>
+            <p style="margin-left: 60px;">Don't have an account? <a style="color:#1912d4" href="register.html">Sign up</a></p>
+        </div>
+    </div>
+</body>
+</html>
