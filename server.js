@@ -10,7 +10,6 @@ const bcrypt = require('bcryptjs'); // For password hashing
 const flash = require('express-flash'); // For flash messages
 const nodemailer = require('nodemailer'); // For sending emails
 const cors = require('cors'); // For handling CORS
-require('dotenv').config(); // For environment variables
 
 
 // Initialize Express app
