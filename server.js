@@ -18,11 +18,11 @@ const app = express();
 // Use CORS middleware
 app.use(cors());
 // Serve static files from the "frontend" directory
-app.use('/client', express.static(path.join(__dirname, 'frontend')));
+app.use('/client', express.static(path.join(__dirname, 'client')));
 
 // Handle all other routes and serve the Homepage.html file
 app.get('/*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'frontend', 'Homepage.html'));
+    res.sendFile(path.join(__dirname, 'client', 'Homepage.html'));
 });
 
 // Connect to MongoDB using Mongoose
